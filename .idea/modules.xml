@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurder.iml" filepath="$PROJECT_DIR$/eurder.iml" />
       <module fileurl="file://$PROJECT_DIR$/jar/jar.iml" filepath="$PROJECT_DIR$/jar/jar.iml" />
