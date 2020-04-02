@@ -11,7 +11,7 @@ public class Userbuilder {
         private String passWord;
         private String inss;
 
-        protected UserBuilder () {
+        protected UserBuilder() {
         }
 
         public UserBuilder userBuilder() {
@@ -73,4 +73,5 @@ public class Userbuilder {
         private String hash(String password) {
             return BCrypt.hashpw(password, BCrypt.gensalt(12));
         }
-} }
+    }
+}
