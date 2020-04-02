@@ -9,12 +9,11 @@ public class UserBuilder {
         private String lastName;
         private String email;
         private String passWord;
-        private String inss;
 
         protected UserBuilder() {
         }
 
-        public UserBuilder userBuilder() {
+        public static UserBuilder userBuilder() {
             return new UserBuilder();
         }
 
@@ -44,11 +43,6 @@ public class UserBuilder {
             return this;
         }
 
-        public UserBuilder withINSS(String inss) {
-            this.inss = inss;
-            return this;
-        }
-
 
         public String getFirstName() {
             return firstName;
@@ -64,10 +58,6 @@ public class UserBuilder {
 
         public String getPassWord() {
             return passWord;
-        }
-
-        public String getInss() {
-            return inss;
         }
 
         private String hash(String password) {

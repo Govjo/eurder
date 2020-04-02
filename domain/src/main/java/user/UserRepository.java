@@ -2,6 +2,7 @@ package user;
 
 import org.springframework.stereotype.Repository;
 import user.exception.EmailAlreadyRegisteredException;
+import user.feature.UserBuilder;
 
 import java.util.Collection;
 import java.util.concurrent.ConcurrentHashMap;
@@ -21,6 +22,29 @@ public class UserRepository {
             throw new EmailAlreadyRegisteredException(email);
         }
         return true;
+    }
+
+    public User registerNewUser(User newUser) {
+        userRepository.put(newUser.getId(), newUser);
+        return newUser;
+    }
+
+    private void createDefaultData(){
+        User user1 = UserBuilder.userBuilder()
+                .withEmail("admin@digibooky.com")
+                .withLastName("Admin")
+                .withPassWord("root")
+                .buildUser();
+
+        User user2 = UserBuilder.userBuilder()
+                .withEmail("adrien.helin@gmail.com")
+                .withFirstName("Adrien")
+                .withLastName("Hélin")
+                .withPassWord("funfunfun")
+                .buildUser();
+
+        registerNewUser(user1);
+        registerNewUser(user2);
     }
 
 
