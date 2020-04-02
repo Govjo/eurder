@@ -40,11 +40,11 @@ Which choices did you make? (List your choices below, remove what is not relevan
  - [ ] Swagger is enabled
 ### Comments:
 ## Story 1
- - [ ] The functional requirements are implemented
- - [ ] The requirements are tested with Postman
+ - [X] The functional requirements are implemented
+ - [X] The requirements are tested with Postman
  - [ ] The requirements are unit tested
  - [ ] The requirements are integration tested
- - [ ] Proper logging is setup
+ - [X] Proper logging is setup
  - [ ] I did a "codereview" of my own code before declaring it "done".
  - [ ] I commit/push my code when this story was done
 ### Comments:
