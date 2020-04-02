@@ -3,8 +3,8 @@ package user.feature;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import user.User;
 
-public class Userbuilder {
-    public class UserBuilder {
+public class UserBuilder {
+
         private String firstName;
         private String lastName;
         private String email;
@@ -73,5 +73,4 @@ public class Userbuilder {
         private String hash(String password) {
             return BCrypt.hashpw(password, BCrypt.gensalt(12));
         }
-    }
 }

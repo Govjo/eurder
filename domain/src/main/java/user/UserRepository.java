@@ -3,9 +3,9 @@ package user;
 import org.springframework.stereotype.Repository;
 import user.exception.EmailAlreadyRegisteredException;
 
-
 import java.util.Collection;
 import java.util.concurrent.ConcurrentHashMap;
+
 
 @Repository
 public class UserRepository {
