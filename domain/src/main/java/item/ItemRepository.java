@@ -1,16 +1,19 @@
 package item;
 
+import org.springframework.stereotype.Repository;
 import user.exception.InputCanNotBeNullException;
 
 import java.util.concurrent.ConcurrentHashMap;
 
+@Repository
 public class ItemRepository {
 
     private final ConcurrentHashMap<String, Item> itemDatabase;
 
     public ItemRepository(ConcurrentHashMap<String, Item> itemDatabase) {
-        this.itemDatabase = itemDatabase;
+        this.itemDatabase = new ConcurrentHashMap<>();
     }
+
 
     public Item addItem(Item item) {
         checkIfInputNull(item);
@@ -23,4 +26,5 @@ public class ItemRepository {
             throw new InputCanNotBeNullException();
         }
     }
+
 }

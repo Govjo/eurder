@@ -51,17 +51,17 @@ Which choices did you make? (List your choices below, remove what is not relevan
 ## Story 2
  - [X] The functional requirements are implemented
  - [X] The requirements are tested with Postman
- - [ ] The requirements are unit tested
- - [ ] The requirements are integration tested
+ - [X] The requirements are unit tested
+ - [X] The requirements are integration tested
  - [X] Proper logging is setup
- - [ ] I did a "codereview" of my own code before declaring it "done".
- - [ ] I commit/push my code when this story was done
+ - [X] I did a "codereview" of my own code before declaring it "done".
+ - [X] I commit/push my code when this story was done
 ### Comments:
 ## Story 3
- - [ ] The functional requirements are implemented
- - [ ] The requirements are tested with Postman
+ - [X] The functional requirements are implemented
+ - [X] The requirements are tested with Postman
  - [ ] The requirements are unit tested
- - [ ] The requirements are integration tested
+ - [X] The requirements are integration tested
  - [ ] Proper logging is setup
  - [ ] I did a "codereview" of my own code before declaring it "done".
  - [ ] I commit/push my code when this story was done
@@ -85,7 +85,7 @@ Which choices did you make? (List your choices below, remove what is not relevan
  - [ ] I commit/push my code when this story was done
 ### Comments: 
 ## Nice-To-Have stories
- - [ ] Story 4
+ - [X] Story 4
  - [ ] Story 5
  - [ ] Story 6
  - [ ] Story 9
