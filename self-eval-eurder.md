@@ -42,11 +42,11 @@ Which choices did you make? (List your choices below, remove what is not relevan
 ## Story 1
  - [X] The functional requirements are implemented
  - [X] The requirements are tested with Postman
- - [ ] The requirements are unit tested
- - [ ] The requirements are integration tested
+ - [X] The requirements are unit tested
+ - [X] The requirements are integration tested
  - [X] Proper logging is setup
- - [ ] I did a "codereview" of my own code before declaring it "done".
- - [ ] I commit/push my code when this story was done
+ - [X] I did a "codereview" of my own code before declaring it "done".
+ - [X] I commit/push my code when this story was done
 ### Comments:
 ## Story 2
  - [ ] The functional requirements are implemented
