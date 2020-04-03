@@ -54,8 +54,6 @@ public class Item {
         this.price = price;
     }
 
-
-
     public static class ItemBuilder {
         private String name;
         private String description;
